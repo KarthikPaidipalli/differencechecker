@@ -1,6 +1,7 @@
 function find() {
-    let originalText = document.getElementById("orginal").value.split(" ");
-    let changedText = document.getElementById("changed").value.split(" ");
+    alert("Some times spaces may include")
+    let originalText = document.getElementById("orginal").value.toLowerCase().split(/\s+/);
+    let changedText = document.getElementById("changed").value.toLowerCase().split(/\s+/);
     let differenceDiv = document.getElementById("difference");
     differenceDiv.innerHTML = "";
 
