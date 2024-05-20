@@ -1,16 +1,29 @@
 .box-container{
-    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+.changed{
+    background-color: red;
+}
+.difference-card{
+    background-color: white;
+    margin: 20px;
+}
 .container{
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(to left, rgb(179, 205, 240),rgb(204, 213, 241));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.text{
+.textbox{
+    background-color: white;
+    height: 300px;
+    width: 300px;
     margin: 15px;
 }

@@ -9,9 +9,11 @@
 <body>
     <div class="container">
         <div class="box-container">
-            <textarea class="text" id="" rows="30" cols="50"></textarea>
-            <textarea class="text" name="" id="" rows="30" cols="50"></textarea>
+            <textarea class="textbox" id="orginal" rows="30" cols="50"></textarea>
+            <textarea class="textbox" id="changed" rows="30" cols="50"></textarea>
         </div>
+        <button onclick="find()">Find</button>
+        <div id="difference" class="difference-card"></div>
     </div>
     <script src="index.js"></script>
 </body>
